@@ -1,6 +1,11 @@
 <template>
   <div id="app">
-  <vue-image-clipper v-if="isShow" @confirm="handleConfirm" @cancel="handleCancel" :options="options"></vue-image-clipper>
+    <vue-image-clipper 
+      v-if="isShow" 
+      :options="options"
+      @confirm="handleConfirm" 
+      @cancel="handleCancel"
+    /> 
   <img :src="imgSrc" alt="" width="300" height="300">
   <hr/>
   <div id="test"></div>
@@ -33,9 +38,6 @@ export default {
     }
   },
   methods:{
-    handleCancel(){
-
-    },
     handleConfirm(imgSrc,canvas){
       this.imgSrc=imgSrc
       document.querySelector('#test').appendChild(canvas)

@@ -23,7 +23,7 @@ export default {
     init(){
       const _this=this
       const defaultOptions={
-        image_src: "https://img0.baidu.com/it/u=3710399885,2923078079&fm=26&fmt=auto&gp=0.jpg",
+        image_src: "",
         className: 'VueImageClipper',
         circle: true, // optional parameters , the default value is false
         width: 200, // crop width

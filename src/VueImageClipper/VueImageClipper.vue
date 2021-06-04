@@ -40,7 +40,6 @@ export default {
         ok_text: "yes", // optional parameters , the default value is ok
         cancel_text: "no" // optional parameters , the default value is cancel
       }
-      console.log(this.options);
       const mergeOptions=Object.assign({},defaultOptions,this.options)
       this.mAlloyCrop=new AlloyCrop(mergeOptions);
     }

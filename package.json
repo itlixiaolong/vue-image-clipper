@@ -1,9 +1,9 @@
 {
   "name": "vue-image-clipper",
   "description": "A Vue.js mobile Component based on alloycrop, With this component, you can crop images",
-  "version": "1.0.0",
-  "main":"dist/vueImageClipper",
-  "module":"src/VueImageClipper/index.js",
+  "version": "1.0.1",
+  "main": "dist/vueImageClipper",
+  "module": "src/VueImageClipper/index.js",
   "author": "itlixiaolong@gmail.com",
   "license": "MIT",
   "private": false,

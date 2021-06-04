@@ -82,6 +82,5 @@ export default {
 |confirm|确认裁剪按钮的事件|function|null|(base64图片地址,canvasDom)
 |cancel|取消裁剪按钮的事件|function|null|null
 
-- 注：对于onBlur事件，可以自定义校验规则和相关逻辑，但必须显示的指定返回值返回false，则终止更新列表数据，返回true，则正常更新列表值
 - 效果
 [移动端打开](https://alloyteam.github.io/AlloyCrop/)
